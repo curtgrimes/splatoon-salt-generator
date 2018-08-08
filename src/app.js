@@ -28,7 +28,6 @@ function onYouTubeIframeAPIReady() {
       rel: 0,
     },
     events: {
-      'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
     }
   });
